@@ -1,0 +1,22 @@
+{
+  "name": "portfolio-generator",
+  "version": "1.0.0",
+  "description": "Generates html pages based on user input",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/leandromichelena/portfolio-generator.git"
+  },
+  "author": "leandromichelena",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/leandromichelena/portfolio-generator/issues"
+  },
+  "homepage": "https://github.com/leandromichelena/portfolio-generator#readme",
+  "dependencies": {
+    "inquirer": "^8.2.4"
+  }
+}
