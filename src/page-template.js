@@ -21,7 +21,7 @@ const generateProjects = projectsArr => {
       .filter(({ feature }) => feature) // filters the array items that have the feature property set to true
       .map(({ name, description, languages, link }) => {
         return `
-          <div class="col-12 mb-2 bg-dark text-light p-3"> // these featured projects will span 100% of the page width
+          <div class="col-12 mb-2 bg-dark text-light p-3"> <!-- these featured projects will span 100% of the page width -->
             <h3 class="portfolio-item-title text-light">${name}</h3>
             <h5 class="portfolio-languages">
               Built With:
@@ -38,7 +38,7 @@ const generateProjects = projectsArr => {
       .filter(({ feature }) => !feature) // filters the array items that have the feature property set to false
       .map(({ name, description, languages, link }) => {
         return `
-          <div class="col-12 col-md-6 mb-2 bg-dark text-light p-3 flex-column"> // these non-featured projects will span 50% of the page width
+          <div class="col-12 col-md-6 mb-2 bg-dark text-light p-3 flex-column"> <!-- these non-featured projects will span 50% of the page width -->
             <h3 class="portfolio-item-title text-light">${name}</h3>
             <h5 class="portfolio-languages">
               Built With:
